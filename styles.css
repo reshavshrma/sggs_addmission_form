@@ -1,0 +1,146 @@
+/* for whole body */
+
+body {
+    text-align: center;
+    background-color: rgb(139, 183, 161);
+    margin: 20px;
+    padding-left: 15%; 
+    padding-right: 15%;
+}
+
+/* for image */
+
+img {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 40px;
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+
+/* whole conatiner like page */
+
+.container {
+    max-height: 4000px;
+    padding: 2%;
+    border: 5px solid white;    
+    border-radius: 20px;
+    background-color: rgb(192, 164, 164);
+}
+
+/* header - name of clg and btech addmi.... */
+
+.header {
+    margin-bottom: 18px;
+    padding: 0.5%;
+    border: 5px solid white;    
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+/* personal section */
+
+.PersonalD {
+    margin-bottom: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+/* for label of personal and address div */
+
+.PersonalD label, .AddressD label{  
+    color: #000000;
+}
+
+
+.PersonalD label, .PersonalD input, .PersonalD select{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.PersonalD input, .AddressD input, .PersonalD select {
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.PersonalD label,
+.PersonalD select {
+    margin-bottom: 10px;
+}
+
+
+.AddressD {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    max-height: 600px;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 18px;
+}
+
+.AddressD label, .AddressD input {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}  
+
+.AddressD input {
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.button1 {
+    margin-top: 20px;
+}
+
+.button1 button {
+    color: aliceblue;
+    justify-content: center;
+    padding: 0.5%;
+    text-align: center;
+    background-color: rgb(151, 63, 93);
+    border-radius: 10px;
+}
+
+/* samples */
+
+.PersonalD, .AddressD {
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(192, 164, 164);
+}
+
+.PersonalD h3, .AddressD h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+.AddressD {
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.AddressD textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
